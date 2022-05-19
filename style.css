@@ -1,0 +1,119 @@
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0px;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  background-color: black;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 0px;
+  /* justify-content: center; */
+  /* flex-wrap: nowrap; */
+}
+
+.logo {
+  padding: 1rem;
+  background-color: #7fffd4;
+}
+
+.menu {
+  padding: 1rem;
+  background-color: #87cefa;
+}
+
+.banner {
+  padding: 4rem;
+  background-color: #ff0000;
+}
+
+.bolum1 {
+  height: 100%;
+  background-color: #adff2e;
+}
+
+.bolum2 {
+  background-color: #adff2e;
+  height: 100%;
+}
+
+.bolum3 {
+  background-color: #adff2e;
+}
+
+.bolum4 {
+  padding: 1rem;
+  background-color: #ff6347;
+}
+
+.bolum5 {
+  padding: 1rem;
+  background-color: #ff6347;
+}
+
+.bolum6 {
+  padding: 1rem;
+  background-color: #ff6347;
+}
+
+.footer {
+  padding: 2rem;
+  background-color: #ee82ee;
+}
+
+/*! col genişlikleri */
+
+.col-1 {
+  width: 8.333333%;
+}
+
+.col-2 {
+  width: 16.666667%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.333333%;
+}
+
+.col-5 {
+  width: 41.666667%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.333333%;
+}
+
+.col-8 {
+  width: 66.666667%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.333333%;
+}
+
+.col-11 {
+  width: 91.666667%;
+}
+
+.col-12 {
+  width: 100%;
+}
