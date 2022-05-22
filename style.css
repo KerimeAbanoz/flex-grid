@@ -49,6 +49,7 @@ body {
 .bolum5,
 .bolum6 {
   padding: 1rem;
+  border: 1px solid grey;
   background-color: #ff6347;
 }
 
