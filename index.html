@@ -5,22 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Responsive Page</title>
+    <title>Flex Grid</title>
   </head>
   <body>
-    <div class="container">
+    <header class="container">
       <div class="row">
-        <div class="logo col-4">LOGO</div>
-        <div class="menu col-8">MENU</div>
-        <div class="banner col-12">BANNER</div>
-        <div class="bolum1 col-4">BOLUM1</div>
-        <div class="bolum2 col-4">BOLUM2</div>
-        <div class="bolum3 col-4">BOLUM3</div>
-        <div class="bolum4 col-3">BOLUM4</div>
-        <div class="bolum5 col-6">BOLUM5</div>
-        <div class="bolum6 col-3">BOLUM6</div>
-        <div class="footer col-12">FOOTER</div>
+        <div class="col-4 logo">LOGO</div>
+        <div class="col-8 menu">MENU</div>
       </div>
-    </div>
+    </header>
+
+    <section class="container">
+      <div class="row">
+        <div class="col-12 banner">BANNER</div>
+      </div>
+    </section>
+
+    <section class="container">
+      <div class="row">
+        <div class="col-4 bol1">BOLUM1</div>
+        <div class="col-4 bol2">BOLUM2</div>
+        <div class="col-4 bol3">BOLUM3</div>
+      </div>
+    </section>
+
+    <section class="container">
+      <div class="row">
+        <div class="col-3 bol4">BOLUM4</div>
+        <div class="col-6 bol5">BOLUM5</div>
+        <div class="col-3 bol6">BOLUM6</div>
+      </div>
+    </section>
+
+    <footer class="col-12 footer">FOOTER</footer>
   </body>
 </html>
